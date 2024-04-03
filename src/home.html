@@ -3,76 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Document</title>
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Flowbite CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-    <!-- Custom CSS -->
+    <title>Built Builder</title>
     <link rel="stylesheet" href="../public/style.css">
-    <style>
-        /* Apply background image to the entire screen and make it cover */
-        html, .Div_1  {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            background-image: url('../public/images/banner-bg.png');
-            background-size: cover;
-        }
-    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 <body>
-    <div class="Div_1 w-full h-screen relative">
-        <section>
-            <nav>
-                <div class="flex flex-row items-center justify-between">
-                    <div class="flex flex-row mx-2">
-                        <img src="../public/images/logo.png" alt="">
+    <div class="bg-[url('../public/images/banner-bg.png')] w-full bg-cover  min-h-screen  position-relative p-10 justify-center  ">
+<section >
+    <nav >
+        <div class="flex flex-row  justify-between ">
+            <div>
+            <img src="../public/images/logo.png" alt="">
+        </div>
+            <div class="flex flex-row ">
+                <ul class="flex flex-row gap-8  ">
+                    <li class="hover:text-yellow-400"><a href="">HOME</a></li>
+                    <li class="hover:text-yellow-400"><a href="" >SERVICES</a></li>
+                    <li class="hover:text-yellow-400"><a href="">ABOUT</a></li>
+                    <li class="hover:text-yellow-400"><a href="">SHOP</a></li>
+                    <li class="hover:text-yellow-400"><a href="">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <div class="flex flex-row gap-5 px-3">
+                <span class="text-yellow-400 fs-1 ">Call Us:</span>
+                <span class="text-yellow-400 fs-1">+01 1234567890</span>
+                <span><i class="bi bi-search"></i></span>
+                <a href="" class="hover:text-yellow-400">LOGIN</a>
+            </div>
+           
+            
+        </div>
+      
+    </nav>
+
+</section>
+
+<section class="m-20">
+    <div>
+    <div class="" >
+        
+    <div >
+        <h1 class="  text-7xl  w-full float-left  text-black text-center text-transform: uppercase p-7">Furniture</h1>
+    </div>
+        <div class="">
+        <p class="text-1xl   w-50  text-center justify-center">There are many variations of passages of Lorem Ipsum available, <br>
+            but the majority have suffered alteration in some fo</p>
+        </div>
+        <section class="absolute bottom-0 left-0 right-0 flex items-center justify-center">
+            <!-- Carousel Section -->
+            <div id="animation-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-200 ease-linear" data-carousel-item>
+                        <section class="absolute bottom-0 left-0 right-0 flex items-center justify-center">
+                            <div class="border w-30 bg-yellow-600 rounded-md text-center">
+                                <a href="#" id="default-carousel" class="block p-1" data-carousel="slide">Contact Us</a>
+                            </div>
+                        </section>
                     </div>
-                    <div>
-                        <ul class="flex flex-row gap-4 mx-2">
-                            <li class="hover:text-yellow-400"><a href="#">HOME</a></li>
-                            <li class="hover:text-yellow-400"><a href="#">SERVICES</a></li>
-                            <li class="hover:text-yellow-400"><a href="#">ABOUT</a></li>
-                            <li class="hover:text-yellow-400"><a href="#">SHOP</a></li>
-                            <li class="hover:text-yellow-400"><a href="#">CONTACT</a></li>
-                        </ul>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-200 ease-linear" data-carousel-item>
+                        <section class="absolute bottom-0 left-0 right-0 flex items-center justify-center">
+                            <div class="border w-30 bg-yellow-600 rounded-md text-center">
+                                <a href="#" id="default-carousel" class="block p-1" data-carousel="slide">Contact Us</a>
+                            </div>
+                        </section>
                     </div>
-                    <div class="flex flex-row gap-2">
-                        <span class="text-yellow-500">Call Us :</span>
-                        <span class="text-yellow-500"> 01 1234567890</span>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-200 ease-linear" data-carousel-item="active">
+                        <section class="absolute bottom-0 left-0 right-0 flex items-center justify-center">
+                            <div class="border w-30 bg-yellow-600 rounded-md text-center">
+                                <a href="#" id="default-carousel" class="block p-1" data-carousel="slide">Contact Us</a>
+                            </div>
+                        </section>
                     </div>
-                    <div class="flex flex-row gap-4 px-4">
-                        <span><i class="bi bi-search"></i></span>
-                        <a href="#"><h1 class="hover:text-yellow-400">LOGIN</h1></a>
+                    <!-- Item 4 -->
+                    <div class="hidden duration-200 ease-linear" data-carousel-item>
+                        <section class="absolute bottom-0 left-0 right-0 flex items-center justify-center">
+                            <div class="border w-30 bg-yellow-600 rounded-md text-center">
+                                <a href="#" id="default-carousel" class="block p-1" data-carousel="slide">Contact Us</a>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="hidden duration-200 ease-linear" data-carousel-item>
+                        <section class="absolute bottom-0 left-0 right-0 flex items-center justify-center">
+                            <div class="border w-30 bg-yellow-600 rounded-md text-center">
+                                <a href="#" id="default-carousel" class="block p-1" data-carousel="slide">Contact Us</a>
+                            </div>
+                        </section>
                     </div>
                 </div>
-            </nav>
-        </section>
-        <section class="m-20">
-            <div class="text-center justify-center">
-                <div>
-                    <h1 class="text-7xl text-black text-center uppercase">Furniture</h1>
-                </div>
-                <div class="m-4">
-                    <p class="text-black text-center text-2xl" style="max-width: 600px; margin-left: auto; margin-right: auto;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some fo</p>
-                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-black dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-black dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
             </div>
         </section>
-        
-    </div>
-    <section class="absolute bottom-0 left-0 right-0 flex items-center justify-center">
-        <div class="border w-30 bg-yellow-600 rounded-md text-center">
-            <a href="#" class="block p-1">Contact Us</a>
+</div>
+<div>
+    <section>
+        <div>
+            <div>
+                <h1>ABOUT US</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believableThere are many variations of passages of Lorem Ipsum available, but the majority have able</p>
+                <button>Read More</button>
+            </div>
+            <div>
+                <img src="../public/images/img-1.png" alt="">
+            </div>
         </div>
     </section>
-    
-    
-    <!-- Flowbite JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    </div>
 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 </body>
 </html>
